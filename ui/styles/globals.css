@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  color: #670426;
+}
+
+a:hover {
+  color: #2d3142;
+}
 
 body {
   background: #670426 !important;
@@ -59,4 +66,8 @@ body {
   bottom: 0px;
   width: 100%;
   width: 1080px;
+}
+
+.nav-items {
+  font-weight: 600;
 }

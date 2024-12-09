@@ -22,7 +22,7 @@ export const FhhsLogo: React.FC<IconSvgProps> = ({
       fillRule="evenodd"
     />
   </svg>
-)
+);
 
 export const Logo: React.FC<IconSvgProps> = ({
   size = 36,
