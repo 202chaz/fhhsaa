@@ -61,10 +61,16 @@ body {
   object-fit: cover;
 }
 
-.hero-video, .content {
+.hero-video {
   position: absolute;
   bottom: 0px;
-  width: 1080px;
+  width: 1100px;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  width: 1100px;
 }
 
 .nav-items {

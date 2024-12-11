@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/button";
 import { motion } from "motion/react";
 
 export default function Home() {
-  const text1 = "HONORING THE PAST".split(" ");
+  const text1 = "HONORING THE PAST";
 
   return (
     <section className="hero">
@@ -15,8 +15,8 @@ export default function Home() {
         className="hero-video"
         src="https://fhhsaa.nyc3.cdn.digitaloceanspaces.com/Awards-Ceremony.mp4"
       />
-      <div className="content p-10">
-        {text1.map((el: any, i: number) => (
+      <div className="content">
+        {/* {text1.map((el: any, i: number) => (
           <motion.span
             key={i}
             animate={{ opacity: 1 }}
@@ -28,7 +28,11 @@ export default function Home() {
           >
             {el}{" "}
           </motion.span>
-        ))}
+        ))} */}
+        <motion.div
+          initial={{ scale: 0 }} animate={{ scale: 1 }}>
+          {text1}
+        </motion.div>
         <br />
         <div className="hero-btn">
           <motion.div
